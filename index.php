@@ -1,3 +1,7 @@
+<form action="" method="POST">
+	<input type="" name="string">
+	<input type="submit" value="encrypt">
+</form>
 <?php
 $offset = 0;
 $string =strtolower($_POST['string']);
@@ -23,7 +27,3 @@ for ($i=0; $i < $split_length ; $i++) {
 }
 
  ?>
-<form action="" method="POST">
-	<input type="" name="string">
-	<input type="submit" value="encrypt">
-</form>
